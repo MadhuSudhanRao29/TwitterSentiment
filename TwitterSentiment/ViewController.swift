@@ -19,7 +19,7 @@ class ViewController: UIViewController
     @IBOutlet weak var searchTF  : UITextField!
     
     
-    let swifter = Swifter(consumerKey: "ZMyvsWnK3tRhBeE3NiQrWIpj8", consumerSecret: "RhMAthpJbvKJKj2yHzR3BtV26V5umY2Inof6AIQ18MzRn2WxYa")
+    let swifter = Swifter(consumerKey: "Your Key", consumerSecret: "Your Secret Key")
     
     let sentimentClassifier = TweetSentimentClassifier()
     
